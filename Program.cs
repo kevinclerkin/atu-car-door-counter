@@ -4,4 +4,9 @@
     {
         Console.WriteLine("Welcome to the Car Door Counter!");
     }
+
+    public class Car
+    {
+
+    }
 }
