@@ -7,6 +7,11 @@
 
     public class Car
     {
+        private readonly int _numberOfDoors = 2;
 
+        public int NumberOfDoors
+        {
+            get { return _numberOfDoors; }
+        }
     }
 }
