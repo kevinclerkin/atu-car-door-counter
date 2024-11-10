@@ -13,5 +13,10 @@
         {
             get { return _numberOfDoors; }
         }
+
+        public bool GetNumberOfDoors()
+        {
+            return NumberOfDoors > 1 && NumberOfDoors < 5;
+        }
     }
 }
